@@ -1,41 +1,50 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $domainTitle ?> — AI для обычных людей</title>
-    
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
+    <title>
+        <?= $domainTitle ?> — AI per persone comuni
+    </title>
+
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap"
+        rel="stylesheet">
+
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body class="page">
 
     <header class="header" id="header">
         <div class="container header__container">
             <a href="./#hero" class="logo">
                 <span class="logo__icon"><i data-lucide="cpu"></i></span>
-                <span class="logo__text"><?= $domainTitle ?></span>
+                <span class="logo__text">
+                    <?= $domainTitle ?>
+                </span>
             </a>
-            
+
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#possibilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#solutions" class="nav__link">Решения</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Home</a></li>
+                    <li><a href="./#possibilities" class="nav__link">Possibilità</a></li>
+                    <li><a href="./#solutions" class="nav__link">Soluzioni</a></li>
+                    <li><a href="./#education" class="nav__link">Formazione</a></li>
+                    <li><a href="./#community" class="nav__link">Community</a></li>
                 </ul>
             </nav>
 
-            <a href="./#contact" class="btn btn--outline">Связаться</a>
-            
+            <a href="./#contact" class="btn btn--outline">Contattaci</a>
+
             <button class="burger" aria-label="Menu">
                 <span></span>
             </button>
@@ -45,56 +54,60 @@
     <main class="main">
         <section class="hero" id="hero">
             <div id="ai-physics-container" class="hero__physics"></div>
-            
+
             <div class="container hero__container">
                 <div class="hero__content">
-                    <span class="hero__badge">Платформа года</span>
+                    <span class="hero__badge">Piattaforma dell'anno</span>
                     <h1 class="hero__title">
-                        Ваш личный проводник в мир <span class="text-gradient">AI технологий</span>
+                        La tua guida personale nel mondo delle <span class="text-gradient">tecnologie AI</span>
                     </h1>
                     <p class="hero__subtitle">
-                        Решения, которые меняют правила игры. Мы превратили сложные алгоритмы в интуитивно понятные инструменты. Пошаговый путь, понятный каждому.
+                        Soluzioni che cambiano le regole del gioco. Abbiamo trasformato algoritmi complessi in strumenti
+                        intuitivi. Un percorso passo dopo passo, accessibile a tutti.
                     </p>
                     <div class="hero__actions">
-                        <a href="#contact" class="btn btn--primary">Запросить доступ</a>
+                        <a href="#contact" class="btn btn--primary">Richiedi l'accesso</a>
                         <a href="#solutions" class="btn btn--link">
-                            Смотреть решения <i data-lucide="chevron-down"></i>
+                            Scopri le soluzioni <i data-lucide="chevron-down"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+
         <section class="possibilities" id="possibilities">
             <div class="container possibilities__container">
                 <div class="possibilities__grid">
                     <div class="possibilities__text-content">
-                        <span class="section-subtitle">Оценить перспективы проекта</span>
-                        <h2 class="section-title">Технологии, которые <br><span class="text-gradient">работают на вас</span></h2>
-                        
+                        <span class="section-subtitle">Valuta le prospettive del progetto</span>
+                        <h2 class="section-title">Tecnologie che <br><span class="text-gradient">lavorano per te</span>
+                        </h2>
+
                         <div class="possibilities__features">
                             <div class="feature-item">
                                 <div class="feature-item__icon"><i data-lucide="zap"></i></div>
                                 <div class="feature-item__text">
-                                    <h4>Инновационная технология</h4>
-                                    <p>Решения, которые меняют правила игры в повседневных задачах.</p>
+                                    <h4>Tecnologia Innovativa</h4>
+                                    <p>Soluzioni che cambiano le regole del gioco nelle attività quotidiane.</p>
                                 </div>
                             </div>
                             <div class="feature-item">
                                 <div class="feature-item__icon"><i data-lucide="shield-check"></i></div>
                                 <div class="feature-item__text">
-                                    <h4>Проверенный партнер</h4>
-                                    <p>Экспертная поддержка на всех этапах внедрения инструментов.</p>
+                                    <h4>Partner Affidabile</h4>
+                                    <p>Supporto esperto in tutte le fasi di implementazione degli strumenti.</p>
                                 </div>
                             </div>
                         </div>
-        
+
                         <p class="possibilities__description">
-                            Воплотите мечты в реальность с помощью передовой цифровой инфраструктуры. Мы предлагаем путь, где подключение занимает всего 2 минуты, а результат виден сразу.
+                            Trasforma i tuoi sogni in realtà con un'infrastruttura digitale all'avanguardia. Offriamo un
+                            percorso dove la connessione richiede solo 2 minuti e i risultati sono immediati.
                         </p>
-                        
-                        <a href="#solutions" class="btn btn--primary">Расширить горизонты</a>
+
+                        <a href="#solutions" class="btn btn--primary">Espandi i tuoi orizzonti</a>
                     </div>
-        
+
                     <div class="possibilities__visual">
                         <div class="ai-core">
                             <div class="ai-core__orbit"></div>
@@ -111,122 +124,135 @@
                 </div>
             </div>
         </section>
+
         <section class="solutions" id="solutions">
             <div class="container">
                 <div class="solutions__header">
-                    <span class="section-subtitle">AI-инструменты для реальных задач</span>
-                    <h2 class="section-title">Ваша стратегия роста <br>на базе <span class="text-gradient">инноваций</span></h2>
+                    <span class="section-subtitle">Strumenti AI per compiti reali</span>
+                    <h2 class="section-title">La tua strategia di crescita <br>basata sull'<span
+                            class="text-gradient">innovazione</span></h2>
                 </div>
-        
+
                 <div class="solutions__grid">
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="message-square"></i></div>
-                        <h3 class="solution-card__title">Умные ассистенты</h3>
-                        <p class="solution-card__text">Технология для пассивного дохода и автоматизации рутинной переписки 24/7.</p>
+                        <h3 class="solution-card__title">Assistenti Intelligenti</h3>
+                        <p class="solution-card__text">Tecnologia per il reddito passivo e l'automazione della
+                            corrispondenza di routine 24/7.</p>
                         <div class="solution-card__glow"></div>
                     </div>
-        
+
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="image"></i></div>
-                        <h3 class="solution-card__title">Генерация контента</h3>
-                        <p class="solution-card__text">Создавайте визуальные шедевры и тексты за секунды. Легко разобраться без опыта.</p>
+                        <h3 class="solution-card__title">Generazione di Contenuti</h3>
+                        <p class="solution-card__text">Crea capolavori visivi e testi in pochi secondi. Facile da usare
+                            anche senza esperienza.</p>
                         <div class="solution-card__glow"></div>
                     </div>
-        
+
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="trending-up"></i></div>
-                        <h3 class="solution-card__title">Аналитика будущего</h3>
-                        <p class="solution-card__text">Прогнозы на базе AI, которые меняют правила игры в вашем бизнесе.</p>
+                        <h3 class="solution-card__title">Analisi del Futuro</h3>
+                        <p class="solution-card__text">Previsioni basate sull'AI che cambiano le regole del gioco nel
+                            tuo business.</p>
                         <div class="solution-card__glow"></div>
                     </div>
-        
+
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="languages"></i></div>
-                        <h3 class="solution-card__title">Мгновенный перевод</h3>
-                        <p class="solution-card__text">Общайтесь со всем миром без языковых барьеров. Платформа уже доступна в Европе.</p>
+                        <h3 class="solution-card__title">Traduzione Istantanea</h3>
+                        <p class="solution-card__text">Comunica con tutto il mondo senza barriere linguistiche. La
+                            piattaforma è già disponibile in Europa.</p>
                         <div class="solution-card__glow"></div>
                     </div>
-        
+
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="code-2"></i></div>
-                        <h3 class="solution-card__title">AI-кодинг</h3>
-                        <p class="solution-card__text">Создавайте простые приложения и сайты, даже если вы никогда не писали код.</p>
+                        <h3 class="solution-card__title">AI Coding</h3>
+                        <p class="solution-card__text">Crea semplici applicazioni e siti web, anche se non hai mai
+                            scritto una riga di codice.</p>
                         <div class="solution-card__glow"></div>
                     </div>
-        
+
                     <div class="solution-card">
                         <div class="solution-card__icon"><i data-lucide="graduation-cap"></i></div>
-                        <h3 class="solution-card__title">Персональное обучение</h3>
-                        <p class="solution-card__text">Пошаговый путь, понятный каждому. AI адаптируется под ваш темп развития.</p>
+                        <h3 class="solution-card__title">Formazione Personale</h3>
+                        <p class="solution-card__text">Un percorso passo dopo passo alla portata di tutti. L'AI si
+                            adatta al tuo ritmo di crescita.</p>
                         <div class="solution-card__glow"></div>
                     </div>
                 </div>
-        
+
                 <div class="solutions__footer">
-                    <p>Программа пассивного дохода и практик, применимых уже сегодня.</p>
-                    <a href="#contact" class="btn btn--outline">Получить больше информации</a>
+                    <p>Programma di reddito passivo e pratiche applicabili già da oggi.</p>
+                    <a href="#contact" class="btn btn--outline">Scopri di più</a>
                 </div>
             </div>
         </section>
+
         <section class="education" id="education">
             <div class="container">
                 <div class="education__header">
-                    <span class="section-subtitle">Пошаговый путь, понятный каждому</span>
-                    <h2 class="section-title">Как начать работу <br>с <span class="text-gradient">нашей платформой</span></h2>
+                    <span class="section-subtitle">Un percorso semplice per tutti</span>
+                    <h2 class="section-title">Come iniziare <br>con <span class="text-gradient">la nostra
+                            piattaforma</span></h2>
                 </div>
-        
+
                 <div class="steps-path">
                     <div class="step-item">
                         <div class="step-item__number">01</div>
                         <div class="step-item__content">
-                            <h4>Пройти регистрацию</h4>
-                            <p>Быстрый и лёгкий старт за 2 минуты. Доступ к платформе открыт для всех жителей ЕС.</p>
+                            <h4>Registrazione</h4>
+                            <p>Inizio rapido e facile in 2 minuti. Accesso aperto a tutti i residenti nell'UE.</p>
                         </div>
                     </div>
                     <div class="step-item">
                         <div class="step-item__number">02</div>
                         <div class="step-item__content">
-                            <h4>Пройти опрос</h4>
-                            <p>AI-инструменты адаптируются под ваши реальные задачи и цели развития.</p>
+                            <h4>Completa il test</h4>
+                            <p>Gli strumenti AI si adattano ai tuoi obiettivi reali e ai tuoi traguardi di sviluppo.</p>
                         </div>
                     </div>
                     <div class="step-item">
                         <div class="step-item__number">03</div>
                         <div class="step-item__content">
-                            <h4>Получить доступ</h4>
-                            <p>Активация персональной панели управления и выбор методологии роста.</p>
+                            <h4>Ottieni l'accesso</h4>
+                            <p>Attivazione del pannello di controllo personale e scelta della metodologia di crescita.
+                            </p>
                         </div>
                     </div>
                     <div class="step-item">
                         <div class="step-item__number">04</div>
                         <div class="step-item__content">
-                            <h4>Внедрить в жизнь</h4>
-                            <p>Практики, применимые уже сегодня для роста дохода и личной эффективности.</p>
+                            <h4>Applica nella vita</h4>
+                            <p>Pratiche applicabili da subito per aumentare il reddito e l'efficienza personale.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+
         <section class="community" id="community">
             <div class="container community__container">
                 <div class="community__box">
                     <div class="community__info">
-                        <h2 class="section-title">Присоединяйтесь к <br><span class="text-gradient">лидерам будущего</span></h2>
+                        <h2 class="section-title">Unisciti ai <br><span class="text-gradient">leader del futuro</span>
+                        </h2>
                         <p class="community__text">
-                            Станьте частью глобальной экосистемы. Предложение активно только в странах ЕС. Поддержка по всем вопросам на каждом этапе вашего пути.
+                            Entra a far parte di un ecosistema globale. Offerta valida solo nei paesi UE. Supporto
+                            completo in ogni fase del tuo percorso.
                         </p>
                         <div class="stats-grid">
                             <div class="stat-card">
                                 <div class="stat-card__val">15k+</div>
-                                <div class="stat-card__label">Пользователей</div>
+                                <div class="stat-card__label">Utenti</div>
                             </div>
                             <div class="stat-card">
                                 <div class="stat-card__val">98%</div>
-                                <div class="stat-card__label">Успешных кейсов</div>
+                                <div class="stat-card__label">Casi di successo</div>
                             </div>
                         </div>
-                        <a href="#contact" class="btn btn--primary">Бесплатная консультация</a>
+                        <a href="#contact" class="btn btn--primary">Consulenza gratuita</a>
                     </div>
                     <div class="community__image">
                         <div class="abstract-shape"></div>
@@ -235,84 +261,85 @@
                 </div>
             </div>
         </section>
+
         <section class="contact" id="contact">
             <div class="container">
                 <div class="contact__grid">
                     <div class="contact__info">
-                        <h2 class="section-title">Готовы начать <br><span class="text-gradient">свой путь?</span></h2>
-                        <p class="contact__text">Заполните форму, и наш эксперт свяжется с вами для бесплатной консультации по всем вопросам внедрения AI.</p>
-                        
+                        <h2 class="section-title">Pronto a iniziare <br><span class="text-gradient">il tuo
+                                percorso?</span></h2>
+                        <p class="contact__text">Compila il modulo e un nostro esperto ti contatterà per una consulenza
+                            gratuita sull'integrazione dell'AI.</p>
+
                         <div class="contact__badge">
                             <i data-lucide="info"></i>
-                            <span>Ответ в течение 15 минут</span>
+                            <span>Risposta entro 15 minuti</span>
                         </div>
                     </div>
-        
+
                     <div class="contact__form-wrapper">
                         <form class="form" id="ai-contact-form">
                             <div class="form__group">
-                                <input type="text" name="name" class="form__input" placeholder="Ваше имя" required>
+                                <input type="text" name="name" class="form__input" placeholder="Il tuo nome" required>
                             </div>
-                            
+
                             <div class="form__group">
                                 <input type="email" name="email" class="form__input" placeholder="Email" required>
                             </div>
-        
+
                             <div class="form__group">
-                                <input 
-                                    type="tel" 
-                                    name="phone" 
-                                    class="form__input" 
-                                    id="phone-input" 
-                                    placeholder="Телефон (только цифры)" 
-                                    inputmode="numeric" 
-                                    pattern="[0-9]*" 
-                                    required
-                                >
+                                <input type="tel" name="phone" class="form__input" id="phone-input"
+                                    placeholder="Telefono (solo numeri)" inputmode="numeric" pattern="[0-9]*" required>
                             </div>
-        
+
                             <div class="form__captcha">
-                                <label class="form__label">Решите пример: <span id="captcha-question">5 + 3 = ?</span></label>
-                                <input type="number" id="captcha-answer" class="form__input" placeholder="Ваш ответ" required>
+                                <label class="form__label">Risolvi l'operazione: <span id="captcha-question">5 + 3 =
+                                        ?</span></label>
+                                <input type="number" id="captcha-answer" class="form__input"
+                                    placeholder="La tua risposta" required>
                             </div>
-        
+
                             <div class="form__checkbox">
                                 <input type="checkbox" id="agree" required>
-                                <label for="agree">Я согласен с <a href="./personal-data-policy.php">политикой обработки данных</a></label>
+                                <label for="agree">Accetto la <a href="./personal-data-policy.php">politica sul
+                                        trattamento dei dati</a></label>
                             </div>
-        
-                            <button type="submit" class="btn btn--primary btn--full">Запросить доступ</button>
-                            
+
+                            <button type="submit" class="btn btn--primary btn--full">Richiedi l'accesso</button>
+
                             <div id="form-status" class="form__status"></div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        </main>
+    </main>
 
     <footer class="footer">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__col">
                     <a href="./#hero" class="logo footer__logo">
-                        <span class="logo__text"><?= $domainTitle ?></span>
+                        <span class="logo__text">
+                            <?= $domainTitle ?>
+                        </span>
                     </a>
-                    <p class="footer__description">Технологии нового поколения, доступные каждому. Мы делаем AI понятным и полезным инструментом для вашей жизни.</p>
+                    <p class="footer__description">Tecnologie di nuova generazione alla portata di tutti. Rendiamo l'AI
+                        uno strumento chiaro e utile per la tua vita.</p>
                 </div>
-                
+
                 <div class="footer__col">
-                    <h4 class="footer__title">Меню</h4>
+                    <h4 class="footer__title">Menu</h4>
                     <ul class="footer__list">
-                        <li><a href="./#hero">Главная</a></li>
-                        <li><a href="./#possibilities">Возможности</a></li>
-                        <li><a href="./#solutions">Решения</a></li>
-                        <li><a href="./#education">Обучение</a></li>
+                        <li><a href="./#hero">Home</a></li>
+                        <li><a href="./#possibilities">Possibilità</a></li>
+                        <li><a href="./#solutions">Soluzioni</a></li>
+                        <li><a href="./#education">Formazione</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Документы</h4>
+                    <h4 class="footer__title">Documenti</h4>
                     <ul class="footer__list">
                         <li><a href="./privacy.php">Privacy Policy</a></li>
                         <li><a href="./cookies.php">Cookie Policy</a></li>
@@ -325,15 +352,17 @@
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Контакты</h4>
+                    <h4 class="footer__title">Contatti</h4>
                     <ul class="footer__contacts">
                         <li>
                             <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <a href="tel:+390697637885">+39 06 9763 7885</a>
                         </li>
                         <li>
                             <i data-lucide="mail"></i>
-                            <a href="mailto:hello@<?= $fullDomain ?>">hello@<?= $fullDomain ?></a>
+                            <a href="mailto:hello@<?= $fullDomain ?>">hello@
+                                <?= $fullDomain ?>
+                            </a>
                         </li>
                         <li>
                             <i data-lucide="map-pin"></i>
@@ -342,25 +371,30 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="footer__bottom">
-                <p>&copy; 2026 <?= $domainTitle ?>. Все права защищены. Платформа уже доступна в Европе.</p>
+                <p>&copy; 2026
+                    <?= $domainTitle ?>. Tutti i diritti riservati. Piattaforma disponibile in Europa.
+                </p>
             </div>
         </div>
     </footer>
+
     <div class="cookie-popup" id="cookie-popup">
         <div class="cookie-popup__content">
             <div class="cookie-popup__icon"><i data-lucide="cookie"></i></div>
             <p class="cookie-popup__text">
-                Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.
-            </div>
-            <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+                Questo sito utilizza i cookie per migliorare l'esperienza. Maggiori dettagli nella nostra <a
+                    href="./cookies.php">Cookie Policy</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Accetta</button>
         </div>
     </div>
-    
+
     <div class="mobile-overlay" id="mobile-overlay"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

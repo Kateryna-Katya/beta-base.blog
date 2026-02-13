@@ -13,11 +13,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $domainTitle ?> — AI для обычных людей</title>
+    <title><?= $domainTitle ?> — Informazioni di Contatto</title>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
 
@@ -40,31 +40,32 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
             
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#possibilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#solutions" class="nav__link">Решения</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Home</a></li>
+                    <li><a href="./#possibilities" class="nav__link">Possibilità</a></li>
+                    <li><a href="./#solutions" class="nav__link">Soluzioni</a></li>
+                    <li><a href="./#education" class="nav__link">Formazione</a></li>
+                    <li><a href="./#community" class="nav__link">Community</a></li>
                 </ul>
             </nav>
 
-            <a href="./#contact" class="btn btn--outline">Связаться</a>
+            <a href="./#contact" class="btn btn--outline">Contattaci</a>
             
             <button class="burger" aria-label="Menu">
                 <span></span>
             </button>
         </div>
     </header>
+
     <main class="legal-page">
         <section class="pages">
             <div class="container">
-                <span class="section-tag">Support Center</span>
-                <h1>Контактная информация</h1>
+                <span class="section-tag">Centro Supporto</span>
+                <h1>Informazioni di Contatto</h1>
 
                 <p class="lead-text">
-                    Мы всегда открыты для новых проектов и профессиональных дискуссий. 
-                    Свяжитесь с командой <strong><?= $domainTitle ?></strong> любым удобным для вас способом. 
-                    Наши специалисты готовы ответить на ваши вопросы по будням с 09:00 до 18:00 (CET).
+                    Siamo sempre aperti a nuovi progetti e discussioni professionali. 
+                    Contatta il team di <strong><?= $domainTitle ?></strong> nel modo che preferisci. 
+                    I nostri specialisti sono pronti a rispondere alle tue domande nei giorni feriali dalle 09:00 alle 18:00 (CET).
                 </p>
 
                 <div class="contact-cards">
@@ -72,8 +73,8 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         <div class="contact-card__icon">
                             <i data-lucide="mail"></i>
                         </div>
-                        <h2>Пишите нам</h2>
-                        <p>Для общих вопросов, предложений и запросов на консалтинг:</p>
+                        <h2>Scrivici</h2>
+                        <p>Per domande generali, proposte e richieste di consulenza:</p>
                         <a href="mailto:support@<?= $fullDomain ?>" class="contact-link">support@<?= $fullDomain ?></a>
                     </div>
 
@@ -81,35 +82,34 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         <div class="contact-card__icon">
                             <i data-lucide="phone-call"></i>
                         </div>
-                        <h2>Звоните</h2>
-                        <p>Прямая линия поддержки клиентов и экспертных консультаций:</p>
-                        <a href="tel:+390697639202" class="contact-link">+39 06 9763 9202</a>
+                        <h2>Chiamaci</h2>
+                        <p>Linea diretta per il supporto clienti e consulenze specialistiche:</p>
+                        <a href="tel:+390697637885" class="contact-link">+39 06 9763 7885</a>
                     </div>
 
                     <div class="contact-card">
                         <div class="contact-card__icon">
                             <i data-lucide="map-pin"></i>
                         </div>
-                        <h2>Наш офис</h2>
-                        <p>Представительство <strong><?= $domainTitle ?></strong> в Италии:</p>
+                        <h2>La nostra sede</h2>
+                        <p>Rappresentanza di <strong><?= $domainTitle ?></strong> in Italia:</p>
                         <address class="contact-address">
                             Via del Corso, 418,<br>
                             00186 Roma RM,<br>
-                            Italy
+                            Italia
                         </address>
                     </div>
                 </div>
 
                 <div class="contact-extra">
                     <p>
-                        Предложение активно только в странах ЕС. Вы также можете воспользоваться формой обратной связи на 
-                        <a href="./#contact">главной странице</a> для быстрой отправки запроса. Экспертная поддержка на всех этапах.
+                        L'offerta è attiva solo nei paesi dell'UE. Puoi anche utilizzare il modulo di contatto nella 
+                        <a href="./#contact">pagina principale</a> per un invio rapido della tua richiesta. Supporto esperto in ogni fase.
                     </p>
                 </div>
             </div>
         </section>
     </main>
-
 
     <footer class="footer">
         <div class="container">
@@ -118,21 +118,21 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                     <a href="./#hero" class="logo footer__logo">
                         <span class="logo__text"><?= $domainTitle ?></span>
                     </a>
-                    <p class="footer__description">Технологии нового поколения, доступные каждому. Мы делаем AI понятным и полезным инструментом для вашей жизни.</p>
+                    <p class="footer__description">Tecnologie di nuova generazione, accessibili a tutti. Rendiamo l'AI uno strumento chiaro e utile per la tua vita.</p>
                 </div>
                 
                 <div class="footer__col">
-                    <h4 class="footer__title">Меню</h4>
+                    <h4 class="footer__title">Menu</h4>
                     <ul class="footer__list">
-                        <li><a href="./#hero">Главная</a></li>
-                        <li><a href="./#possibilities">Возможности</a></li>
-                        <li><a href="./#solutions">Решения</a></li>
-                        <li><a href="./#education">Обучение</a></li>
+                        <li><a href="./#hero">Home</a></li>
+                        <li><a href="./#possibilities">Possibilità</a></li>
+                        <li><a href="./#solutions">Soluzioni</a></li>
+                        <li><a href="./#education">Formazione</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Документы</h4>
+                    <h4 class="footer__title">Documenti</h4>
                     <ul class="footer__list">
                         <li><a href="./privacy.php">Privacy Policy</a></li>
                         <li><a href="./cookies.php">Cookie Policy</a></li>
@@ -145,11 +145,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Контакты</h4>
+                    <h4 class="footer__title">Contatti</h4>
                     <ul class="footer__contacts">
                         <li>
                             <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <a href="tel:+390697637885">+39 06 9763 7885</a>
                         </li>
                         <li>
                             <i data-lucide="mail"></i>
@@ -157,24 +157,25 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         </li>
                         <li>
                             <i data-lucide="map-pin"></i>
-                            <span>Via del Corso, 418, 00186 Roma RM, Italy</span>
+                            <span>Via del Corso, 418, 00186 Roma RM, Italia</span>
                         </li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer__bottom">
-                <p>&copy; 2026 <?= $domainTitle ?>. Все права защищены. Платформа уже доступна в Европе.</p>
+                <p>&copy; 2026 <?= $domainTitle ?>. Tutti i diritti riservati. Piattaforma disponibile in Europa.</p>
             </div>
         </div>
     </footer>
+
     <div class="cookie-popup" id="cookie-popup">
         <div class="cookie-popup__content">
             <div class="cookie-popup__icon"><i data-lucide="cookie"></i></div>
             <p class="cookie-popup__text">
-                Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.
-            </div>
-            <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+                Questo sito utilizza i cookie per migliorare l'esperienza. Maggiori dettagli nella nostra <a href="./cookies.php">Cookie Policy</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Accetta</button>
         </div>
     </div>
     

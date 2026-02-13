@@ -13,11 +13,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $domainTitle ?> — AI для обычных людей</title>
+    <title><?= $domainTitle ?> — Informativa sulla Privacy</title>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
 
@@ -40,15 +40,15 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
             
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#possibilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#solutions" class="nav__link">Решения</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Home</a></li>
+                    <li><a href="./#possibilities" class="nav__link">Possibilità</a></li>
+                    <li><a href="./#solutions" class="nav__link">Soluzioni</a></li>
+                    <li><a href="./#education" class="nav__link">Formazione</a></li>
+                    <li><a href="./#community" class="nav__link">Community</a></li>
                 </ul>
             </nav>
 
-            <a href="./#contact" class="btn btn--outline">Связаться</a>
+            <a href="./#contact" class="btn btn--outline">Contattaci</a>
             
             <button class="burger" aria-label="Menu">
                 <span></span>
@@ -60,79 +60,78 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
     <section class="pages">
         <div class="container">
             <span class="section-tag">Privacy Policy</span>
-            <h1>Политика конфиденциальности</h1>
+            <h1>Informativa sulla Privacy</h1>
 
             <div class="legal-content">
                 <div class="contact-extra" style="border-left-color: var(--primary); margin-top: 0; margin-bottom: 40px;">
                     <p class="lead-text" style="margin-bottom: 0; font-size: 1.1rem;">
-                        Политика конфиденциальности распространяется на персональные данные,
-                        предоставляемые клиентами <strong><?= $domainTitle ?></strong>, как для оказания услуг по AI-консультированию, так и для других взаимодействий в электронном формате.
+                        La presente Informativa sulla Privacy si applica ai dati personali forniti dai clienti di <strong><?= $domainTitle ?></strong>, sia per i servizi di consulenza AI che per altre interazioni in formato elettronico.
                     </p>
                 </div>
 
                 <div class="policy-notice" style="background: rgba(255, 255, 255, 0.02); padding: 25px; border-radius: 15px; border: 1px dashed rgba(0, 212, 255, 0.2); margin-bottom: 40px;">
                     <p style="font-size: 0.95rem; color: var(--text-muted); margin-bottom: 0;">
-                        <strong><?= $domainTitle ?></strong> оставляет за собой право вносить изменения в положения Политики. Обратите внимание, что наши услуги могут содержать ссылки на ресурсы третьих лиц. Предоставляя свои данные, вы даете полное согласие на их обработку способами, предусмотренными настоящей Политикой.
+                        <strong><?= $domainTitle ?></strong> si riserva il diritto di apportare modifiche alle disposizioni della presente Informativa. Si prega di notare che i nostri servizi possono contenere link a risorse di terze parti. Fornendo i propri dati, l'utente presta il pieno consenso al loro trattamento secondo le modalità previste dalla presente Informativa.
                     </p>
                 </div>
 
-                <h2>Порядок сбора, хранения и уничтожения</h2>
+                <h2>Modalità di raccolta, conservazione e cancellazione</h2>
                 <div class="contact-cards" style="grid-template-columns: repeat(2, 1fr); margin: 30px 0; gap: 20px;">
                     <div class="contact-card" style="padding: 25px; text-align: center;">
                         <div class="contact-card__icon" style="margin-bottom: 15px;"><i data-lucide="clock"></i></div>
-                        <h4 style="color: var(--white); margin-bottom: 5px;">Срок хранения</h4>
-                        <p style="margin-bottom: 0;">До <strong>75 лет</strong> согласно архивному регламенту.</p>
+                        <h4 style="color: var(--white); margin-bottom: 5px;">Periodo di conservazione</h4>
+                        <p style="margin-bottom: 0;">Fino a <strong>75 anni</strong> secondo il regolamento archivistico.</p>
                     </div>
                     <div class="contact-card" style="padding: 25px; text-align: center;">
                         <div class="contact-card__icon" style="margin-bottom: 15px;"><i data-lucide="shield-check"></i></div>
-                        <h4 style="color: var(--white); margin-bottom: 5px;">Безопасность</h4>
-                        <p style="margin-bottom: 0;">Только с вашего явного согласия.</p>
+                        <h4 style="color: var(--white); margin-bottom: 5px;">Sicurezza</h4>
+                        <p style="margin-bottom: 0;">Solo con il tuo esplicito consenso.</p>
                     </div>
                 </div>
                 <p>
-                    Для предотвращения утечки данных мы используем полный комплекс мер информационной безопасности. Уничтожение или блокирование данных осуществляется по запросу клиента или при достижении целей сбора.
+                    Per prevenire la fuga di dati, utilizziamo un complesso completo di misure di sicurezza informatica. La distruzione o il blocco dei dati avviene su richiesta del cliente o al raggiungimento delle finalità della raccolta.
                 </p>
 
                 <div class="contact-cards" style="grid-template-columns: repeat(2, 1fr); margin-top: 40px;">
                     <div class="data-box">
                         <h3 style="color: var(--primary); display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
-                            <i data-lucide="cpu" style="width: 20px;"></i> Техническая информация
+                            <i data-lucide="cpu" style="width: 20px;"></i> Informazioni tecniche
                         </h3>
                         <ul class="legal-list">
-                            <li>IP-адрес и время доступа</li>
-                            <li>Источники перехода на <strong><?= $fullDomain ?></strong></li>
-                            <li>Данные браузера и просмотры блоков</li>
+                            <li>Indirizzo IP e orario di accesso</li>
+                            <li>Sorgenti di traffico verso <strong><?= $fullDomain ?></strong></li>
+                            <li>Dati del browser e visualizzazioni dei blocchi</li>
                         </ul>
                     </div>
                     <div class="data-box">
                         <h3 style="color: var(--primary); display: flex; align-items: center; gap: 10px; margin-bottom: 15px;">
-                            <i data-lucide="user" style="width: 20px;"></i> Персонализация
+                            <i data-lucide="user" style="width: 20px;"></i> Personalizzazione
                         </h3>
                         <ul class="legal-list">
-                            <li>Имя пользователя</li>
-                            <li>E-mail и номер телефона</li>
-                            <li>Данные о контрактах и услугах</li>
+                            <li>Nome dell'utente</li>
+                            <li>E-mail e numero di telefono</li>
+                            <li>Dati relativi a contratti e servizi</li>
                         </ul>
                     </div>
                 </div>
 
-                <h2 style="margin-top: 60px;">Цели обработки персональных данных</h2>
+                <h2 style="margin-top: 60px;">Finalità del trattamento dei dati personali</h2>
                 <ul class="legal-list">
-                    <li>Предоставление доступа к инновационной платформе обучения.</li>
-                    <li>Учет пожеланий при разработке новых решений.</li>
-                    <li>Информирование об акциях и материалах блога.</li>
-                    <li>Обеспечение качественной обратной связи.</li>
+                    <li>Fornire l'accesso a una piattaforma di formazione innovativa.</li>
+                    <li>Considerare le preferenze dell'utente nello sviluppo di nuove soluzioni.</li>
+                    <li>Informare su promozioni e materiali del blog.</li>
+                    <li>Garantire un feedback di qualità.</li>
                 </ul>
 
-                <h2>Использование Cookies</h2>
+                <h2>Utilizzo dei Cookie</h2>
                 <p>
-                    Файлы cookie позволяют нам анализировать трафик и сохранять ваши предпочтения (настройки региона Италия), чтобы сделать использование <strong><?= $fullDomain ?></strong> удобнее. Вы можете отключить их в настройках браузера.
+                    I file cookie ci permettono di analizzare il traffico e salvare le tue preferenze (impostazioni per la regione Italia) per rendere l'uso di <strong><?= $fullDomain ?></strong> più comodo. Puoi disattivarli nelle impostazioni del browser.
                 </p>
 
                 <div class="contact-extra" style="text-align: center; border-left: none; border-top: 4px solid var(--primary);">
-                    <h2>Ваши права</h2>
+                    <h2>I tuoi diritti</h2>
                     <p>
-                        Если вы хотите отредактировать свои данные или прекратить их обработку, свяжитесь с командой <strong><?= $domainTitle ?></strong>:
+                        Se desideri modificare i tuoi dati o interromperne il trattamento, contatta il team di <strong><?= $domainTitle ?></strong>:
                     </p>
                     <a href="mailto:hello@<?= $fullDomain ?>" class="btn btn--primary" style="margin-top: 15px;">hello@<?= $fullDomain ?></a>
                 </div>
@@ -148,21 +147,21 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                     <a href="./#hero" class="logo footer__logo">
                         <span class="logo__text"><?= $domainTitle ?></span>
                     </a>
-                    <p class="footer__description">Технологии нового поколения, доступные каждому. Мы делаем AI понятным и полезным инструментом для вашей жизни.</p>
+                    <p class="footer__description">Tecnologie di nuova generazione, accessibili a tutti. Rendiamo l'AI uno strumento chiaro e utile per la tua vita.</p>
                 </div>
                 
                 <div class="footer__col">
-                    <h4 class="footer__title">Меню</h4>
+                    <h4 class="footer__title">Menu</h4>
                     <ul class="footer__list">
-                        <li><a href="./#hero">Главная</a></li>
-                        <li><a href="./#possibilities">Возможности</a></li>
-                        <li><a href="./#solutions">Решения</a></li>
-                        <li><a href="./#education">Обучение</a></li>
+                        <li><a href="./#hero">Home</a></li>
+                        <li><a href="./#possibilities">Possibilità</a></li>
+                        <li><a href="./#solutions">Soluzioni</a></li>
+                        <li><a href="./#education">Formazione</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Документы</h4>
+                    <h4 class="footer__title">Documenti</h4>
                     <ul class="footer__list">
                         <li><a href="./privacy.php">Privacy Policy</a></li>
                         <li><a href="./cookies.php">Cookie Policy</a></li>
@@ -175,11 +174,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Контакты</h4>
+                    <h4 class="footer__title">Contatti</h4>
                     <ul class="footer__contacts">
                         <li>
                             <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <a href="tel:+390697637885">+39 06 9763 7885</a>
                         </li>
                         <li>
                             <i data-lucide="mail"></i>
@@ -187,24 +186,25 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         </li>
                         <li>
                             <i data-lucide="map-pin"></i>
-                            <span>Via del Corso, 418, 00186 Roma RM, Italy</span>
+                            <span>Via del Corso, 418, 00186 Roma RM, Italia</span>
                         </li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer__bottom">
-                <p>&copy; 2026 <?= $domainTitle ?>. Все права защищены. Платформа уже доступна в Европе.</p>
+                <p>&copy; 2026 <?= $domainTitle ?>. Tutti i diritti riservati. Piattaforma disponibile in Europa.</p>
             </div>
         </div>
     </footer>
+
     <div class="cookie-popup" id="cookie-popup">
         <div class="cookie-popup__content">
             <div class="cookie-popup__icon"><i data-lucide="cookie"></i></div>
             <p class="cookie-popup__text">
-                Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.
-            </div>
-            <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+                Questo sito utilizza i cookie per migliorare l'esperienza. Maggiori dettagli nella nostra <a href="./cookies.php">Cookie Policy</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Accetta</button>
         </div>
     </div>
     

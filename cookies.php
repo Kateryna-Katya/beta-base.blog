@@ -13,11 +13,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $domainTitle ?> — AI для обычных людей</title>
+    <title><?= $domainTitle ?> — Politica sui Cookie</title>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
 
@@ -40,108 +40,108 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
             
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#possibilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#solutions" class="nav__link">Решения</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Home</a></li>
+                    <li><a href="./#possibilities" class="nav__link">Possibilità</a></li>
+                    <li><a href="./#solutions" class="nav__link">Soluzioni</a></li>
+                    <li><a href="./#education" class="nav__link">Formazione</a></li>
+                    <li><a href="./#community" class="nav__link">Community</a></li>
                 </ul>
             </nav>
 
-            <a href="./#contact" class="btn btn--outline">Связаться</a>
+            <a href="./#contact" class="btn btn--outline">Contattaci</a>
             
             <button class="burger" aria-label="Menu">
                 <span></span>
             </button>
         </div>
     </header>
+
     <main class="legal-page">
-    <section class="pages">
-        <div class="container">
-            <span class="section-tag">Legal Documents</span>
-            <h1>Политика использования файлов cookie</h1>
+        <section class="pages">
+            <div class="container">
+                <span class="section-tag">Documenti Legali</span>
+                <h1>Politica sui Cookie</h1>
 
-            <div class="legal-content">
-                <p class="lead-text">
-                    Добро пожаловать на <strong><?= $domainTitle ?></strong>! Чтобы улучшить ваш опыт
-                    взаимодействия с нашим сайтом, обеспечить его корректную работу и
-                    анализировать активность пользователей, мы используем файлы cookie и
-                    схожие технологии.
-                </p>
-
-                <h2>Что такое файлы cookie?</h2>
-                <p>
-                    Файл cookie — это небольшой фрагмент данных (текстовый файл),
-                    который веб-сайт сохраняет на вашем устройстве, когда вы его посещаете. 
-                    Это позволяет платформе <strong><?= $domainTitle ?></strong> "помнить" ваши действия и предпочтения 
-                    (язык, настройки региона Италия и другие параметры) в течение определенного времени.
-                </p>
-
-                <h2>Какие типы файлов cookie мы используем?</h2>
-                <p>
-                    Мы классифицируем файлы cookie, используемые на сайте <strong><?= $fullDomain ?></strong>, по
-                    следующим категориям:
-                </p>
-                <ul class="legal-list">
-                    <li>
-                        <strong>Строго необходимые:</strong> Инновационная технология, которая критически важна для функционирования платформы.
-                    </li>
-                    <li>
-                        <strong>Аналитические:</strong> Сбор анонимной информации о том, как посетители используют наши AI-инструменты.
-                    </li>
-                    <li>
-                        <strong>Функциональные:</strong> Позволяют запоминать ваш выбор для персонализированного опыта в рамках обучения.
-                    </li>
-                    <li>
-                        <strong>Маркетинговые:</strong> Предложение активно только в странах ЕС и помогает доставлять релевантные новости.
-                    </li>
-                </ul>
-
-                <h2>Зачем мы используем файлы cookie?</h2>
-                <ul class="legal-list">
-                    <li>Обеспечение стабильной и безопасной работы цифровой инфраструктуры.</li>
-                    <li>Анализ пользовательского поведения для оптимизации AI-решений.</li>
-                    <li>Персонализация контента для пользователей в Европе.</li>
-                    <li>Методологии, доказавшие эффективность в управлении данными.</li>
-                </ul>
-
-                <h2>Ваш выбор и управление</h2>
-                <p>
-                    Вы имеете полный контроль над файлами cookie. Вы можете в любой
-                    момент изменить свои настройки в браузере или через наш Cookie-popup. 
-                    Однако отключение некоторых функций может замедлить ваш быстрый и лёгкий старт на платформе.
-                </p>
-
-                <h2>Файлы cookie третьих сторон</h2>
-                <p>
-                    На некоторых страницах мы используем внешние сервисы для визуализации (например, Matter.js или Lucide Icons). Мы рекомендуем ознакомиться с их политиками конфиденциальности.
-                </p>
-
-                <div class="contact-extra">
-                    <h2>Контактная информация</h2>
-                    <p>
-                        Если у вас возникли вопросы касательно политики на <strong><?= $domainTitle ?></strong>, свяжитесь с нами:
+                <div class="legal-content">
+                    <p class="lead-text">
+                        Benvenuti su <strong><?= $domainTitle ?></strong>! Per migliorare la vostra esperienza di 
+                        interazione con il nostro sito, garantire il suo corretto funzionamento e 
+                        analizzare l'attività degli utenti, utilizziamo i cookie e tecnologie simili.
                     </p>
-                    <ul class="footer__contacts" style="margin-top: 20px;">
+
+                    <h2>Cosa sono i cookie?</h2>
+                    <p>
+                        Un cookie è un piccolo frammento di dati (file di testo) che un sito web salva sul vostro dispositivo 
+                        quando lo visitate. Questo permette alla piattaforma <strong><?= $domainTitle ?></strong> di "ricordare" 
+                        le vostre azioni e preferenze (lingua, impostazioni per la regione Italia e altri parametri) 
+                        per un determinato periodo di tempo.
+                    </p>
+
+                    <h2>Quali tipi di cookie utilizziamo?</h2>
+                    <p>
+                        Classifichiamo i cookie utilizzati sul sito <strong><?= $fullDomain ?></strong> nelle 
+                        seguenti categorie:
+                    </p>
+                    <ul class="legal-list">
                         <li>
-                            <i data-lucide="mail"></i>
-                            <a href="mailto:support@<?= $fullDomain ?>">support@<?= $fullDomain ?></a>
+                            <strong>Strettamente necessari:</strong> Tecnologia innovativa fondamentale per il funzionamento della piattaforma.
                         </li>
                         <li>
-                            <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <strong>Analitici:</strong> Raccolta di informazioni anonime su come i visitatori utilizzano i nostri strumenti AI.
                         </li>
                         <li>
-                            <i data-lucide="map-pin"></i>
-                            <span>Via del Corso, 418, 00186 Roma RM, Italy</span>
+                            <strong>Funzionali:</strong> Permettono di ricordare le vostre scelte per un'esperienza personalizzata durante la formazione.
+                        </li>
+                        <li>
+                            <strong>Di Marketing:</strong> L'offerta è attiva solo nei paesi UE e aiuta a fornire notizie e aggiornamenti pertinenti.
                         </li>
                     </ul>
+
+                    <h2>Perché utilizziamo i cookie?</h2>
+                    <ul class="legal-list">
+                        <li>Garantire un funzionamento stabile e sicuro dell'infrastruttura digitale.</li>
+                        <li>Analizzare il comportamento degli utenti per ottimizzare le soluzioni AI.</li>
+                        <li>Personalizzare i contenuti per gli utenti in Europa.</li>
+                        <li>Applicare metodologie comprovate per l'efficienza nella gestione dei dati.</li>
+                    </ul>
+
+                    <h2>Le vostre scelte e gestione</h2>
+                    <p>
+                        Avete il pieno controllo sui cookie. Potete modificare le vostre impostazioni in qualsiasi momento 
+                        tramite il browser o attraverso il nostro popup dei cookie. Tuttavia, la disattivazione di alcune 
+                        funzioni potrebbe rallentare il vostro avvio rapido sulla piattaforma.
+                    </p>
+
+                    <h2>Cookie di terze parti</h2>
+                    <p>
+                        In alcune pagine utilizziamo servizi esterni per la visualizzazione (ad esempio Matter.js o Lucide Icons). 
+                        Vi raccomandiamo di consultare le loro rispettive politiche sulla privacy.
+                    </p>
+
+                    <div class="contact-extra">
+                        <h2>Informazioni di contatto</h2>
+                        <p>
+                            Se avete domande riguardanti la politica su <strong><?= $domainTitle ?></strong>, contattateci:
+                        </p>
+                        <ul class="footer__contacts" style="margin-top: 20px;">
+                            <li>
+                                <i data-lucide="mail"></i>
+                                <a href="mailto:support@<?= $fullDomain ?>">support@<?= $fullDomain ?></a>
+                            </li>
+                            <li>
+                                <i data-lucide="phone"></i>
+                                <a href="tel:+390697637885">+39 06 9763 7885</a>
+                            </li>
+                            <li>
+                                <i data-lucide="map-pin"></i>
+                                <span>Via del Corso, 418, 00186 Roma RM, Italia</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
-
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -150,21 +150,21 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                     <a href="./#hero" class="logo footer__logo">
                         <span class="logo__text"><?= $domainTitle ?></span>
                     </a>
-                    <p class="footer__description">Технологии нового поколения, доступные каждому. Мы делаем AI понятным и полезным инструментом для вашей жизни.</p>
+                    <p class="footer__description">Tecnologie di nuova generazione, accessibili a tutti. Rendiamo l'AI uno strumento chiaro e utile per la tua vita.</p>
                 </div>
                 
                 <div class="footer__col">
-                    <h4 class="footer__title">Меню</h4>
+                    <h4 class="footer__title">Menu</h4>
                     <ul class="footer__list">
-                        <li><a href="./#hero">Главная</a></li>
-                        <li><a href="./#possibilities">Возможности</a></li>
-                        <li><a href="./#solutions">Решения</a></li>
-                        <li><a href="./#education">Обучение</a></li>
+                        <li><a href="./#hero">Home</a></li>
+                        <li><a href="./#possibilities">Possibilità</a></li>
+                        <li><a href="./#solutions">Soluzioni</a></li>
+                        <li><a href="./#education">Formazione</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Документы</h4>
+                    <h4 class="footer__title">Documenti</h4>
                     <ul class="footer__list">
                         <li><a href="./privacy.php">Privacy Policy</a></li>
                         <li><a href="./cookies.php">Cookie Policy</a></li>
@@ -177,11 +177,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Контакты</h4>
+                    <h4 class="footer__title">Contatti</h4>
                     <ul class="footer__contacts">
                         <li>
                             <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <a href="tel:+390697637885">+39 06 9763 7885</a>
                         </li>
                         <li>
                             <i data-lucide="mail"></i>
@@ -189,24 +189,25 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         </li>
                         <li>
                             <i data-lucide="map-pin"></i>
-                            <span>Via del Corso, 418, 00186 Roma RM, Italy</span>
+                            <span>Via del Corso, 418, 00186 Roma RM, Italia</span>
                         </li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer__bottom">
-                <p>&copy; 2026 <?= $domainTitle ?>. Все права защищены. Платформа уже доступна в Европе.</p>
+                <p>&copy; 2026 <?= $domainTitle ?>. Tutti i diritti riservati. Piattaforma disponibile in Europa.</p>
             </div>
         </div>
     </footer>
+
     <div class="cookie-popup" id="cookie-popup">
         <div class="cookie-popup__content">
             <div class="cookie-popup__icon"><i data-lucide="cookie"></i></div>
             <p class="cookie-popup__text">
-                Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.
-            </div>
-            <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+                Questo sito utilizza i cookie per migliorare l'esperienza. Maggiori dettagli nella nostra <a href="./cookies.php">Cookie Policy</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Accetta</button>
         </div>
     </div>
     

@@ -13,11 +13,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
 ?>
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $domainTitle ?> — AI для обычных людей</title>
+    <title><?= $domainTitle ?> — Informativa sul Trattamento dei Dati Personali</title>
     
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D4FF' stroke-width='8'/><path d='M30 50 Q50 20 70 50 T30 50' fill='%2300D4FF'/></svg>">
 
@@ -40,111 +40,111 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
             
             <nav class="nav">
                 <ul class="nav__list">
-                    <li><a href="./#hero" class="nav__link">Главная</a></li>
-                    <li><a href="./#possibilities" class="nav__link">Возможности</a></li>
-                    <li><a href="./#solutions" class="nav__link">Решения</a></li>
-                    <li><a href="./#education" class="nav__link">Обучение</a></li>
-                    <li><a href="./#community" class="nav__link">Сообщество</a></li>
+                    <li><a href="./#hero" class="nav__link">Home</a></li>
+                    <li><a href="./#possibilities" class="nav__link">Possibilità</a></li>
+                    <li><a href="./#solutions" class="nav__link">Soluzioni</a></li>
+                    <li><a href="./#education" class="nav__link">Formazione</a></li>
+                    <li><a href="./#community" class="nav__link">Community</a></li>
                 </ul>
             </nav>
 
-            <a href="./#contact" class="btn btn--outline">Связаться</a>
+            <a href="./#contact" class="btn btn--outline">Contattaci</a>
             
             <button class="burger" aria-label="Menu">
                 <span></span>
             </button>
         </div>
     </header>
+
     <main class="legal-page">
-    <section class="pages">
-        <div class="container">
-            <span class="section-tag">Privacy & Security</span>
-            <h1>Политика обработки персональных данных</h1>
+        <section class="pages">
+            <div class="container">
+                <span class="section-tag">Privacy & Security</span>
+                <h1>Informativa sul trattamento dei dati personali</h1>
 
-            <div class="legal-content">
-                <div class="policy-intro">
-                    <h2>1. Общие положения</h2>
-                    <p>
-                        Настоящая политика обработки персональных данных (далее —
-                        «Политика») определяет порядок и условия обработки персональных
-                        данных, предпринимаемые платформой <strong><?= $domainTitle ?></strong> (далее — «Оператор»), и
-                        устанавливает меры по обеспечению безопасности этих данных.
-                    </p>
-                    <p>
-                        1.1. Важнейшей целью Оператор считает соблюдение прав и свобод человека при
-                        обработке его данных, включая защиту прав на неприкосновенность частной жизни.
-                    </p>
-                    <p>
-                        1.2. Настоящая Политика применяется ко всей информации, которую
-                        Оператор может получить о посетителях веб-сайта <strong><?= $fullDomain ?></strong>.
-                    </p>
-                </div>
+                <div class="legal-content">
+                    <div class="policy-intro">
+                        <h2>1. Disposizioni generali</h2>
+                        <p>
+                            La presente informativa sul trattamento dei dati personali (di seguito — 
+                            «Informativa») definisce le modalità e le condizioni del trattamento dei dati 
+                            personali adottate dalla piattaforma <strong><?= $domainTitle ?></strong> (di seguito — «Titolare»), e 
+                            stabilisce le misure per garantire la sicurezza di tali dati.
+                        </p>
+                        <p>
+                            1.1. Il Titolare considera obiettivo fondamentale il rispetto dei diritti e delle libertà 
+                            dell'uomo nel trattamento dei suoi dati, inclusa la protezione del diritto alla riservatezza della vita privata.
+                        </p>
+                        <p>
+                            1.2. La presente Informativa si applica a tutte le informazioni che il 
+                            Titolare può ricevere sui visitatori del sito web <strong><?= $fullDomain ?></strong>.
+                        </p>
+                    </div>
 
-                <div class="policy-section">
-                    <h2>2. Основные понятия</h2>
-                    <ul class="legal-list">
-                        <li>
-                            <strong>Веб-сайт</strong> — совокупность графических и
-                            информационных материалов <strong><?= $fullDomain ?></strong>.
-                        </li>
-                        <li><strong>Пользователь</strong> — любой посетитель веб-сайта.</li>
-                        <li>
-                            <strong>Персональные данные</strong> — любая информация,
-                            относящаяся прямо или косвенно к Пользователю.
-                        </li>
-                        <li>
-                            <strong>Обработка данных</strong> — любое действие, совершаемое с данными (сбор, запись, хранение).
-                        </li>
-                    </ul>
-                </div>
+                    <div class="policy-section">
+                        <h2>2. Concetti principali</h2>
+                        <ul class="legal-list">
+                            <li>
+                                <strong>Sito Web</strong> — l'insieme dei materiali grafici e 
+                                informativi di <strong><?= $fullDomain ?></strong>.
+                            </li>
+                            <li><strong>Utente</strong> — qualsiasi visitatore del sito web.</li>
+                            <li>
+                                <strong>Dati personali</strong> — qualsiasi informazione relativa, 
+                                direttamente o indirettamente, all'Utente.
+                            </li>
+                            <li>
+                                <strong>Trattamento dei dati</strong> — qualsiasi operazione effettuata con i dati (raccolta, registrazione, conservazione).
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="policy-section">
-                    <h2>3. Данные, которые мы обрабатываем</h2>
-                    <div class="contact-cards" style="grid-template-columns: repeat(2, 1fr); margin: 30px 0;">
-                        <div class="contact-card">
-                            <div class="contact-card__icon"><i data-lucide="user-check"></i></div>
-                            <h3>Личные данные</h3>
-                            <p>ФИО, Email, номер телефона для связи и регистрации.</p>
-                        </div>
-                        <div class="contact-card">
-                            <div class="contact-card__icon"><i data-lucide="shield-check"></i></div>
-                            <h3>Технические данные</h3>
-                            <p>Cookies, IP-адрес, данные браузера и аналитика посещений.</p>
+                    <div class="policy-section">
+                        <h2>3. Dati che trattiamo</h2>
+                        <div class="contact-cards" style="grid-template-columns: repeat(2, 1fr); margin: 30px 0;">
+                            <div class="contact-card">
+                                <div class="contact-card__icon"><i data-lucide="user-check"></i></div>
+                                <h3>Dati identificativi</h3>
+                                <p>Nome, Email, numero di telefono per contatto e registrazione.</p>
+                            </div>
+                            <div class="contact-card">
+                                <div class="contact-card__icon"><i data-lucide="shield-check"></i></div>
+                                <h3>Dati tecnici</h3>
+                                <p>Cookie, indirizzo IP, dati del browser e analisi delle visite.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="policy-section">
-                    <h2>4. Цели обработки данных</h2>
-                    <p>Мы используем передовую цифровую инфраструктуру для следующих целей:</p>
-                    <ul class="legal-list">
-                        <li>Идентификация Пользователя для доступа к функциям AI.</li>
-                        <li>Установление обратной связи и экспертная поддержка.</li>
-                        <li>Исполнение условий программы пассивного дохода.</li>
-                        <li>Улучшение качества работы платформы в странах ЕС.</li>
-                    </ul>
-                </div>
+                    <div class="policy-section">
+                        <h2>4. Finalità del trattamento</h2>
+                        <p>Utilizziamo un'infrastruttura digitale avanzata per le seguenti finalità:</p>
+                        <ul class="legal-list">
+                            <li>Identificazione dell'Utente per l'accesso alle funzioni AI.</li>
+                            <li>Stabilire un feedback e fornire supporto esperto.</li>
+                            <li>Esecuzione delle condizioni del programma di reddito passivo.</li>
+                            <li>Miglioramento della qualità della piattaforma nei paesi UE.</li>
+                        </ul>
+                    </div>
 
-                <div class="policy-section">
-                    <h2>5. Правовые основания</h2>
-                    <p>Оператор обрабатывает данные только при наличии вашего добровольного согласия, подтвержденного через формы на сайте, или если сохранение файлов «cookie» разрешено в настройках вашего браузера.</p>
-                </div>
+                    <div class="policy-section">
+                        <h2>5. Base giuridica</h2>
+                        <p>Il Titolare tratta i dati solo in presenza del vostro consenso volontario, confermato tramite i moduli sul sito, o se la memorizzazione dei file «cookie» è consentita nelle impostazioni del vostro browser.</p>
+                    </div>
 
-                <div class="contact-extra">
-                    <h2>6. Вопросы и отзывы</h2>
-                    <p>Если у вас возникли вопросы по поводу защиты данных на платформе <strong><?= $domainTitle ?></strong>, вы можете направить письмо на адрес:</p>
-                    <div style="margin-top: 20px;">
-                        <a href="mailto:hello@<?= $fullDomain ?>" class="btn btn--outline">
-                            <i data-lucide="mail" style="width: 18px; vertical-align: middle; margin-right: 8px;"></i>
-                            hello@<?= $fullDomain ?>
-                        </a>
+                    <div class="contact-extra">
+                        <h2>6. Domande e feedback</h2>
+                        <p>Se avete domande sulla protezione dei dati sulla piattaforma <strong><?= $domainTitle ?></strong>, potete inviare un'e-mail all'indirizzo:</p>
+                        <div style="margin-top: 20px;">
+                            <a href="mailto:hello@<?= $fullDomain ?>" class="btn btn--outline">
+                                <i data-lucide="mail" style="width: 18px; vertical-align: middle; margin-right: 8px;"></i>
+                                hello@<?= $fullDomain ?>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-</main>
-
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container">
@@ -153,21 +153,21 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                     <a href="./#hero" class="logo footer__logo">
                         <span class="logo__text"><?= $domainTitle ?></span>
                     </a>
-                    <p class="footer__description">Технологии нового поколения, доступные каждому. Мы делаем AI понятным и полезным инструментом для вашей жизни.</p>
+                    <p class="footer__description">Tecnologie di nuova generazione, accessibili a tutti. Rendiamo l'AI uno strumento chiaro e utile per la tua vita.</p>
                 </div>
                 
                 <div class="footer__col">
-                    <h4 class="footer__title">Меню</h4>
+                    <h4 class="footer__title">Menu</h4>
                     <ul class="footer__list">
-                        <li><a href="./#hero">Главная</a></li>
-                        <li><a href="./#possibilities">Возможности</a></li>
-                        <li><a href="./#solutions">Решения</a></li>
-                        <li><a href="./#education">Обучение</a></li>
+                        <li><a href="./#hero">Home</a></li>
+                        <li><a href="./#possibilities">Possibilità</a></li>
+                        <li><a href="./#solutions">Soluzioni</a></li>
+                        <li><a href="./#education">Formazione</a></li>
                     </ul>
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Документы</h4>
+                    <h4 class="footer__title">Documenti</h4>
                     <ul class="footer__list">
                         <li><a href="./privacy.php">Privacy Policy</a></li>
                         <li><a href="./cookies.php">Cookie Policy</a></li>
@@ -180,11 +180,11 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                 </div>
 
                 <div class="footer__col">
-                    <h4 class="footer__title">Контакты</h4>
+                    <h4 class="footer__title">Contatti</h4>
                     <ul class="footer__contacts">
                         <li>
                             <i data-lucide="phone"></i>
-                            <a href="tel:+390697639202">+39 06 9763 9202</a>
+                            <a href="tel:+390697637885">+39 06 9763 7885</a>
                         </li>
                         <li>
                             <i data-lucide="mail"></i>
@@ -192,24 +192,25 @@ $domainTitle = ucwords(str_replace('-', ' ', $domainSlug));
                         </li>
                         <li>
                             <i data-lucide="map-pin"></i>
-                            <span>Via del Corso, 418, 00186 Roma RM, Italy</span>
+                            <span>Via del Corso, 418, 00186 Roma RM, Italia</span>
                         </li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer__bottom">
-                <p>&copy; 2026 <?= $domainTitle ?>. Все права защищены. Платформа уже доступна в Европе.</p>
+                <p>&copy; 2026 <?= $domainTitle ?>. Tutti i diritti riservati. Piattaforma disponibile in Europa.</p>
             </div>
         </div>
     </footer>
+
     <div class="cookie-popup" id="cookie-popup">
         <div class="cookie-popup__content">
             <div class="cookie-popup__icon"><i data-lucide="cookie"></i></div>
             <p class="cookie-popup__text">
-                Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.
-            </div>
-            <button class="btn btn--primary btn--sm" id="cookie-accept">Принять</button>
+                Questo sito utilizza i cookie per migliorare l'esperienza. Maggiori dettagli nella nostra <a href="./cookies.php">Cookie Policy</a>.
+            </p>
+            <button class="btn btn--primary btn--sm" id="cookie-accept">Accetta</button>
         </div>
     </div>
     

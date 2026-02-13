@@ -1,27 +1,27 @@
 /**
  * Project: <?= $domainTitle ?>
- * Final Optimized Script
+ * Final Optimized Script - Italian Version
  */
 
 document.addEventListener('DOMContentLoaded', () => {
     
-    // === 1. Инициализация иконок Lucide ===
+    // === 1. Inizializzazione icone Lucide ===
     if (typeof lucide !== 'undefined') {
         lucide.createIcons();
     }
 
-    // === 2. Навигация и Мобильное меню ===
+    // === 2. Navigazione e Menu Mobile ===
     const header = document.querySelector('#header');
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelectorAll('.nav__link');
     const body = document.body;
 
-    // Скролл-эффект хедера
+    // Effetto scroll dell'header
     window.addEventListener('scroll', () => {
         header.classList.toggle('header--scrolled', window.scrollY > 50);
     });
 
-    // Переключение бургера
+    // Toggle menu mobile
     const toggleMenu = () => {
         header.classList.toggle('header--menu-open');
         body.style.overflow = header.classList.contains('header--menu-open') ? 'hidden' : '';
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     burger?.addEventListener('click', toggleMenu);
 
-    // Закрытие при клике на ссылку
+    // Chiusura menu al click sui link
     navLinks.forEach(link => {
         link.addEventListener('click', () => {
             header.classList.remove('header--menu-open');
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // === 3. Физика "AI" в Hero (Matter.js) ===
+    // === 3. Fisica "AI" in Hero (Matter.js) ===
     const initHeroPhysics = () => {
         const container = document.querySelector('#ai-physics-container');
         if (!container) return;
@@ -62,10 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Границы
+            // Bordi
             const ground = Bodies.rectangle(window.innerWidth/2, window.innerHeight + 50, window.innerWidth, 100, { isStatic: true });
             
-            // Создание блоков "AI"
+            // Creazione blocchi "AI"
             const aiBlocks = Array.from({ length: 20 }, () => {
                 return Bodies.rectangle(
                     Math.random() * window.innerWidth, 
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 );
             });
 
-            // Взаимодействие с мышью
+            // Interazione mouse
             const mouse = Mouse.create(render.canvas);
             const mouseConstraint = MouseConstraint.create(engine, {
                 mouse: mouse,
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             Render.run(render);
             Runner.run(Runner.create(), engine);
 
-            // Кастомный рендер текста AI поверх тел
+            // Render testo AI sopra i corpi fisici
             (function renderLoop() {
                 const ctx = render.context;
                 ctx.font = "bold 18px 'Plus Jakarta Sans'";
@@ -111,16 +111,16 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     initHeroPhysics();
 
-    // === 4. Анимация появления карточек и Счетчиков ===
+    // === 4. Animazione apparizione card e Contatori ===
     const scrollObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                // Если это счетчик
+                // Se è un contatore
                 if (entry.target.classList.contains('stat-card__val')) {
                     const targetVal = parseInt(entry.target.innerText);
                     animateNumber(entry.target, targetVal);
                 } 
-                // Если это карточка
+                // Se è una card o un elemento della lista
                 else {
                     entry.target.style.opacity = '1';
                     entry.target.style.transform = 'translateY(0)';
@@ -155,12 +155,12 @@ document.addEventListener('DOMContentLoaded', () => {
         scrollObserver.observe(el);
     });
 
-    // === 5. Обработка формы и Валидация телефона ===
+    // === 5. Gestione Modulo e Validazione telefono ===
     const contactForm = document.querySelector('#ai-contact-form');
     const phoneInput = document.querySelector('#phone-input');
 
     if (phoneInput) {
-        // Запрет на ввод всего, кроме цифр
+        // Permette solo l'inserimento di cifre
         phoneInput.addEventListener('input', (e) => {
             e.target.value = e.target.value.replace(/\D/g, '');
         });
@@ -172,18 +172,21 @@ document.addEventListener('DOMContentLoaded', () => {
             const statusBox = document.querySelector('#form-status');
             const btn = contactForm.querySelector('button');
             
-            // Имитация отправки
+            // Simulazione invio
             btn.disabled = true;
-            btn.innerText = "Отправка...";
+            btn.innerText = "Invio in corso...";
             
             setTimeout(() => {
-                statusBox.innerText = "Запрос успешно отправлен! Мы свяжемся с вами.";
+                statusBox.innerText = "Richiesta inviata con successo! Ti contatteremo a breve.";
                 statusBox.className = "form__status form__status--success";
                 contactForm.reset();
                 btn.disabled = false;
-                btn.innerText = "Запросить доступ";
+                btn.innerText = "Richiedi l'accesso";
                 
-                setTimeout(() => { statusBox.style.display = 'none'; }, 5000);
+                setTimeout(() => { 
+                    statusBox.style.display = 'none'; 
+                    statusBox.className = "form__status";
+                }, 5000);
             }, 1500);
         });
     }
